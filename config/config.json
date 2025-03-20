@@ -1,0 +1,14 @@
+{
+    "simulation": {
+        "duration": 1000,
+        "num_slices": 2,
+        "initial_slices": [
+            {"id": 1, "bandwidth": 20.0, "priority": 5, "latency": 10.0},
+            {"id": 2, "bandwidth": 100.0, "priority": 8, "latency": 1.0}
+        ]
+    },
+    "ai": {
+        "state_size": 4,
+        "action_size": 4
+    }
+} 
